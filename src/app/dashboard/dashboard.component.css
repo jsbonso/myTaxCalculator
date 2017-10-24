@@ -1,0 +1,63 @@
+.colorNested, .containerX {
+    min-height: 700px;
+    background: #999999;
+  }
+  
+  main, nav, aside, header, footer {
+    margin: 4px;
+    padding: 5px;
+    border: 1px solid #cccc33;
+    border-radius: 7px;
+  }
+  
+  #main > main {
+    border-color: #FFFFFF;
+    background: #FFFFFF;
+    cursor: pointer;
+  }
+  
+  #main > nav, #main > aside {
+    border-color: #FFFFFF;
+    background: #FFFFFF;
+  }
+  
+  header, footer {
+    border-color: #eebb55;
+    background: #ffeebb;
+  }
+  
+  mat-card > mat-card-actions:last-child {
+    padding-bottom: 16px;
+  }
+  
+  mat-card > mat-card-actions > button {
+    margin-left: 10px;
+  }
+
+  .example-form {
+    min-width: 150px;
+    max-width: 500px;
+    width: 100%;
+  }
+  
+  .example-full-width {
+    width: 100%;
+  }
+  
+  .example-container {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .example-container > * {
+    width: 100%;
+  }
+  
+  .example-right-align {
+    text-align: left;
+  }
+  
+  input.example-right-align::-webkit-outer-spin-button,
+  input.example-right-align::-webkit-inner-spin-button {
+    display: none;
+  }
